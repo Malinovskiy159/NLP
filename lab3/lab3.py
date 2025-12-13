@@ -42,7 +42,7 @@ def predict_masked_words(sentence_with_mask, top_k=10):
 
 
 
-sentence = ["И тогда ему [MASK] утром ясно, что решение было ошибочным.",],
+sentence = "И тогда ему [MASK] утром ясно, что решение было ошибочным."
 
 predictions = predict_masked_words(sentence, top_k=10)
 
